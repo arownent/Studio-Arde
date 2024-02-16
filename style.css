@@ -1,0 +1,792 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "one";
+    background-color: #0A0A0A;
+    color: #fafafa;
+    cursor: url(cursor-white.svg), url(cursor-hover.svg), auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 8.5vw;
+    padding: 0 2.3vw;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+
+}
+
+.hamburger:hover{
+    cursor: url(cursor-hover.svg),auto;
+}
+.logo{
+    height: 3.5vw;
+}
+.logo img{
+    height: 100%;
+    object-fit: cover;
+    filter: invert(1);
+}
+.first{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagesoffirst img{
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover;
+}
+.firstimage{
+    position: absolute;
+    left: -14%;
+    top: 10%;
+}
+.secondimage{
+    position: absolute;
+    left: 24%;
+    top: 31%;
+}
+.thirdimage{
+    position: absolute;
+    left: 55%;
+    top: 57.5%;
+}
+.fourthimage{
+    position: absolute;
+    left: 92.5%;
+    top: 10%;
+}
+
+.maintext{
+    height: 91vh;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    white-space: nowrap;
+}
+.maintext h1{
+    font-size: 30vw;
+    font-family: "Aleo", serif;
+    font-weight: 200;
+}
+.lowertext{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.5vw;
+    font-size: 1.2em;
+}
+
+
+.second{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fortext{
+    height: 64%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.upperbold{
+    height: 90%;
+    width: 100%;
+    font-size: 5em;
+    font-family: "Aleo", serif;
+    font-weight: 200;
+}
+.lowernormal{
+ font-size: 1.2em;
+ text-align: right;
+}
+.third{
+    height: 100vh;
+    width: 100%;
+}
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    padding-left: 42vw;
+    padding-right: 7vw;
+    line-height: 1;
+}
+.maindiv>p{
+    font-size: 5em;
+    font-family: "Aleo", serif;
+    font-weight: 200;
+
+}
+.lowertextdiv{
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+.lowertextdiv p{
+    font-size: 1.2em;
+}
+.fourth{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.upperdiv{
+    height: 100%;
+    width: 100%;
+}
+.upperdiv p{
+    font-size: 7em;
+    text-align: center;
+    padding-top: 11vw;
+}
+.lowerpicsdiv{
+    min-height: 350vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+.scrollimages1{
+    position: absolute;
+    top: 16%;
+    left: 62%;
+    z-index: -1;
+}
+.scrollimages2{
+    position: absolute;
+    top: 21%;
+    left: 30%;
+    z-index: -1;
+}
+.scrollimages3{
+    position: absolute;
+    top: 24%;
+    left: -7%;
+    z-index: -1;
+}
+.scrollimages4{
+    position: absolute;
+    top: 41%;
+    left: 10%;
+    z-index: -1;
+}
+.scrollimages5{
+    position: absolute;
+    top: 36%;
+    left: 60%;
+    z-index: -1;
+}
+.scrollimages6{
+    position: absolute;
+    top: 39%;
+    left: 87%;
+    z-index: -1;
+}
+.scrollimages7{
+    position: absolute;
+    top: 48.5%;
+    left: 50%;
+    z-index: -1;
+}
+.scrollimages8{
+    position: absolute;
+    top: 59%;
+    left: -2%;
+    z-index: -1;
+}
+.scrollimages9{
+    position: absolute;
+    top: 61%;
+    left: 40%;
+    z-index: -1;
+}
+.scrollimages10{
+    position: absolute;
+    top: 59%;
+    left: 82%;
+    z-index: -1;
+}
+.scrollimages11{
+    position: absolute;
+    top: 71.5%;
+    left: 70%;
+    z-index: -1;
+}
+.fifth{
+    height: 250vh;
+    width: 100%;
+}
+.sixth{
+    height: 100vh;
+    width: 100%;
+}
+
+.sixthdiv{
+    padding-top: 10vw;
+    padding-left: 10vw;
+    padding-right: 30vw;
+    font-family: "one";
+    z-index: 20;
+}
+.sixthdiv>p{
+    font-size: 4vw;
+    font-family: "one";
+}
+.lowersixthdiv{
+    display: flex;
+    gap: 4vw;
+    margin-top: 5vw;
+}
+.seventh{
+    width: 100%;
+    padding-top: 10vw;
+    padding-left: 10vw;
+    font-family: "Aleo", serif;
+    position: relative;
+    min-height: 100vh;
+}
+.seventh h2{
+    font-size: 8vw;
+    font-weight: 200;
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+    cursor: url(cursor-hover.svg),auto;
+}
+.seventh h2::after{
+    content: "";
+    height: 175%;
+    width: 42%;
+    background-color: #F5C3CB;
+    position: absolute;
+    top: -125%;
+    right:-30%;
+    display: none;
+    transition: all 0.4s ease;
+
+}
+.seventh h2:hover::after{
+    display: block;
+}
+.seventh h2:hover{
+    border-bottom: 2px solid #fafafa;
+}
+
+.eight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100vh;
+    width: 100%;
+    padding: 10vw;
+}
+.uppereight{
+    width: 60%;
+}
+.uppereight>p{
+    font-size: 3em;
+    text-align: right;
+}
+.lowereight{
+    display: flex;
+    gap: 10vw;
+    margin-top: 12vw;
+}
+.lowereight p{
+    font-size: 2vw;
+}
+.lefteight{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 1vw;
+}
+.middleeight{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 1vw;
+}
+.righteight{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 1vw;
+}
+
+.tenth{
+    width: 100%;
+    min-height: 100vh;
+}
+.imgdiv{
+    height: 100vh;
+    width: 100%;
+}
+.imgdiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 2vw 8vw;
+}
+.btndiv{
+    text-align: center;
+    
+}
+.btndiv button{
+    padding: 1vw;
+    background-color: transparent;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 50px;
+    font-size: 1.2em;
+    cursor: url(cursor-hover.svg),auto;
+}
+.paradiv{
+    text-align: center;
+    margin-top: 1vw;
+}
+.paradiv a{
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 2em;
+}
+
+.eleventh{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15vw;
+}
+.eleventh h2{
+    font-size: 4.5em;
+    font-family: "Aleo", serif;
+    font-weight: 200;
+}
+.eleventh h2 span button{
+    padding: 1vw;
+    font-size: 0.5em;
+    color: #fafafa;
+    background-color: transparent;
+    border: none;
+    cursor: url(cursor-hover.svg),auto;
+}
+.eleventh h2 span{
+    border: 2px solid #fafafa;
+    border-radius: 50px;
+}
+
+footer{
+    padding: 2vw 8vw;
+    font-size: 1.5em;
+}
+footer a{
+    color: #fafafa;
+}
+footer a:hover{
+    color: #6798D8;
+}
+.upperfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerpic{
+    margin: 5vw 0;
+}
+.footerpic img{
+    filter: invert(1);
+}
+.upperright span{
+    cursor: url(cursor-hover.svg),auto;
+}
+.upperright span:hover{
+    color: #6798D8;
+}
+.lowerfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.linediv{
+    height: 0.5vh;
+    width: 100%;
+    background-color: #fafafa;
+    margin-top: 1vw;
+}
+
+.intro{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #6798D8;
+    z-index: 20;
+    padding: 10vw;
+    padding-bottom: 0;
+    display: none;
+}
+.intro a{
+    text-decoration: none;
+    color: #fafafa;
+}
+.intro a:hover{
+    border-bottom: 2px solid #fafafa;
+}
+.homelink ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 5em;
+    font-family: "Aleo",serif;
+    font-weight: 200;
+}
+.serviceslink ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 5em;
+    font-family: "Aleo",serif;
+    font-weight: 200;
+    margin-top: 2vw;
+}
+.workwituslink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5vw;
+}
+.leftworkwitus ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 2vw;
+    font-size: 2em;
+}
+.rightworkwithus ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 2vw;
+    font-size: 2em;
+}
+.introline{
+    height: 0.3vh;
+    width: 100%;
+    background-color: #fafafa;
+    margin-top: 1vw;
+}
+
+
+.hamburger{
+    position: fixed;
+    top: 3%;
+    left: 94%;
+    font-size: 4vw;
+    font-weight: 100;
+    z-index: 999;
+    transition: all 0.3s linear;
+}
+
+.smallscreen{
+    display: none;
+}
+
+
+
+@media (max-width:900px) {
+    nav{
+        height: 20vw;
+        padding: 2vw 3vw;    
+    }
+    .logo{
+        height: 9vw;
+    }
+    
+    .imagesoffirst img{
+        height: 30vw;
+        width: 30vw;
+    }
+    .firstimage{
+        left: -8%;
+        top: 10%;
+    }
+    .secondimage{
+        left: 20%;
+        top: 71%;
+    }
+    .thirdimage{
+        left: 60%;
+        top: 85.5%;
+    }
+    .fourthimage{
+        left: 82.5%;
+        top: 10%;
+    }
+    
+    .maintext{
+        align-items: center;
+    }
+    .lowertext .rightdiv{
+        display: none;
+    }
+    .lowertext .leftdiv{
+        width: 51vw;
+    }
+    
+    .fortext{
+        height: 54%;
+    }
+    .upperbold{
+        font-size: 3em;
+    }
+    .lowernormal{
+     font-size: 1em;
+     text-align: right;
+    }
+    .maindiv{
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+    .maindiv>p{
+        font-size: 3em;    
+    }
+    .lowertextdiv{
+        margin-top: 5vw;
+        display: inline-block;
+    }
+    .lowertextdiv p{
+        font-size: 1em;
+    }
+    .third{
+        padding-top: 35vh;
+    }
+    .fourth{
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+    .upperdiv p{
+        font-size: 4em;
+        padding-top: 40vh;
+    }
+    .scrollimages1{
+        top: 19%;
+        left: 42%;
+    }
+    .scrollimages2{
+        top: 25%;
+        left: 30%;
+    }
+    .scrollimages3{
+        top: 22%;
+        left: -20%;
+    }
+    .scrollimages4{
+        top: 38%;
+        left: 10%;
+    }
+    .scrollimages5{
+        top: 32%;
+        left: 40%;
+    }
+    .scrollimages6{
+        top: 37%;
+        left: 90%;
+    }
+    .scrollimages7{
+        position: absolute;
+        top: 45.5%;
+        left: 50%;
+        z-index: -1;
+    }
+    .scrollimages8{
+        position: absolute;
+        top: 59%;
+        left: -2%;
+        z-index: -1;
+    }
+    .scrollimages9{
+        position: absolute;
+        top: 58%;
+        left: 40%;
+        z-index: -1;
+    }
+    .scrollimages10{
+        position: absolute;
+        top: 55%;
+        left: 82%;
+        z-index: -1;
+    }
+    .scrollimages11{
+        position: absolute;
+        top: 65.5%;
+        left: 70%;
+        z-index: -1;
+    }   
+    .sixthdiv{
+        padding-top: 30vh;
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+    .sixthdiv>p{
+        font-size: 8vw;
+    }
+    .lowersixthdiv{
+        display: inline-block;
+    }
+    .seventh{
+        width: 100%;
+        padding-top: 10vw;
+        padding-left: 10vw;
+        font-family: "Aleo", serif;
+        position: relative;
+        min-height: 100vh;
+        
+    }
+    .seventh h2{
+        font-size: 14vw;
+        width: 60%;
+        font-weight: 200;
+        position: relative;
+        display: inline-block;
+        margin-bottom: 4vh;
+    }
+    .eight{
+        padding: 4vw;
+        padding-top: 20vh;
+    }
+    .uppereight{
+        width: 90%;
+    }
+    .uppereight>p{
+        font-size: 2em;
+    }
+    .lowereight{
+        flex-direction: column;
+        gap: 10vw;
+    }
+    .lowereight p{
+        font-size: 6vw;
+    }
+    .lefteight{
+        align-items: center;
+        gap: 4vw;
+    }
+    .middleeight{
+        align-items: center;
+        gap: 4vw;
+    }
+    .righteight{
+        align-items: center;
+        gap: 4vw;
+    }
+    
+    .tenth{
+        padding-top: 20vh;
+    }
+    .imgdiv{
+        height: 40vh;
+    }
+    .btndiv button{
+        padding: 2vw 4vw;
+        font-size: 1em;
+    }
+    .paradiv{
+        margin-top: 4vw;
+    }
+    .paradiv a{
+        font-size: 1.5em;
+    }
+    
+    .eleventh{
+        padding: 0 8vw;
+    }
+    .eleventh h2{
+        font-size: 3em;
+    }
+    
+    footer{
+        padding: 8vh 4vw;
+        font-size: 1.5em;
+    }
+    .upperfooter{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4vh;
+        font-size: 0.7em;
+    }
+    .lowerfooter{
+        font-size: 0.7em;
+        margin-bottom: 4vh;
+    }
+    .copyright{
+        display: none;
+    }
+    .linediv{
+        height: 0.3vh;
+        margin-top: 2vw;
+    }
+    
+    .intro{
+        padding: 12vh 2vh;
+    }
+    .homelink ul{
+        flex-direction: column;
+        font-size: 3em;
+        gap: 1vh;
+    }
+    .serviceslink ul{
+        flex-direction: column;
+        font-size: 3em;
+        gap: 1vh;
+    }
+    .workwituslink{
+        display: block;
+        margin: 4vh 0;
+    }
+    .leftworkwitus ul{
+        font-size: 1em;
+    }
+    .rightworkwithus{
+        display: none;
+    }
+    .introline{
+        width: 100%;
+        margin-top: 2vw;
+    }
+    .smallscreen{
+        display: block;
+    }
+    
+    .hamburger{
+        top: 2%;
+        left: 87%;
+        font-size: 4vh;
+    }
+    
+}

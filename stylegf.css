@@ -1,0 +1,52 @@
+
+   
+   
+   @font-face {
+    font-family: 'one';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PP Neue Montreal Book'), url('ppneuemontreal-book.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'two';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PP Neue Montreal Italic'), url('ppneuemontreal-italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'three';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PP Neue Montreal Thin'), url('ppneuemontreal-thin.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'four';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PP Neue Montreal Medium'), url('ppneuemontreal-medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'five';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PP Neue Montreal SemiBold italic'), url('ppneuemontreal-semibolditalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'six';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PP Neue Montreal Bold'), url('ppneuemontreal-bold.woff') format('woff');
+    }
+
+
+  
